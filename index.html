@@ -1,16 +1,11 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400" rel="stylesheet">
-
-
-    <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
-
     <title>Canvas Generator</title>
 </head>
 <body>
@@ -20,7 +15,6 @@
             <h2>Canvas Generator</h2>
         </div>
     </div>
-
     <div class="row">
         <div class="col-sm-6 col-md-6">
             <div class="generate">
@@ -29,23 +23,23 @@
             <div class="page-reload">
                 <a href="index.html" class="button-custom">Reset</a>
             </div>
-
-
             <div class="height-50"></div>
-            <select class="custom-select input-width inputGroupSelect">
-                <option selected>Select Canvas Id..</option>
-            </select>
-            <div class="height-50"></div>
-            <select class="custom-select input-width inputShapeSelect">
-                <option selected>Select Shape..</option>
-                <option value="triangle">Triangle</option>
-                <option value="rect">Rectangle</option>
-                <option value="circle">Circle</option>
-                <option value="group">Rectangle, Triangle, Circle</option>
-            </select>
-            <div class="height-50"></div>
-            <div class="generate">
-                <button class="button-custom" onclick="generateShape()">Generate shape</button>
+            <div class="show-after-generate">
+                <select class="custom-select input-width inputGroupSelect">
+                    <option selected>Select Canvas Id..</option>
+                </select>
+                <div class="height-50"></div>
+                <select class="custom-select input-width inputShapeSelect">
+                    <option selected>Select Shape..</option>
+                    <option value="triangle">Triangle</option>
+                    <option value="rect">Rectangle</option>
+                    <option value="circle">Circle</option>
+                    <option value="group">Rectangle, Triangle, Circle</option>
+                </select>
+                <div class="height-50"></div>
+                <div class="generate">
+                    <button class="button-custom" onclick="generateShape()">Generate shape</button>
+                </div>
             </div>
             <div class="height-50"></div>
         </div>
