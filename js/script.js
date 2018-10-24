@@ -153,7 +153,7 @@ let circle = new fabric.Circle({
 let circleTwo = new fabric.Circle({
     radius: 35,
     fill: _.sample(colors),
-    left: fabric.util
+    left: 0
 });
 let triangleTwo = new fabric.Triangle({
     width: 70,
