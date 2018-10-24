@@ -131,7 +131,7 @@ let rect = new fabric.Rect({
     top: fabric.util.getRandomInt(0, 120),
     fill: _.sample(colors),
     width: 40,
-    height: 50,
+    height: 50
 });
 
 let triangle = new fabric.Triangle({
@@ -159,7 +159,7 @@ let triangleTwo = new fabric.Triangle({
     width: 70,
     height: 70,
     fill: _.sample(colors),
-    left: 140,
+    left: 140
 });
 let rectangleTwo = new fabric.Rect({
     left: 70,
